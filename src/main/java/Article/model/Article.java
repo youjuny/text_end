@@ -1,3 +1,5 @@
+package Article;
+
 public class Article {
     private int id;
     private String title;
