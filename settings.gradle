@@ -1,2 +1,8 @@
 rootProject.name = 'text1'
+include 'src:main:Article'
+findProject(':src:main:Article')?.name = 'Article'
+include 'src:main:Article'
+findProject(':src:main:Article')?.name = 'Article'
+include 'src:main:Article:Board'
+findProject(':src:main:Article:Board')?.name = 'Board'
 

@@ -1,7 +1,9 @@
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+package Article;
+
+import Article.controll.BoardApp;
+import Article.model.Article;
+
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Main {
     ArrayList<Article> articles = new ArrayList<>();
